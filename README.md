@@ -1,48 +1,54 @@
-# Astro Starter Kit: Basics
 
-```sh
-npm create astro@latest -- --template basics
-```
+<h1 align="center">Grill & Thrill Restaurant</h1>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+# Sample Astro
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+# Description
+A modern, responsive restaurant website built with Astro.js and TailwindCSS, showcasing a Nepali restaurant's menu, team, and story.
+Daytona is used as a development environment manager to streamline the development process.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Table of Contents
 
-## 🚀 Project Structure
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Technologies](#technologies)
+- [License](#license)
 
-Inside of your Astro project, you'll see the following folders and files:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Getting Started
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+### Open Using Daytona
 
-## 🧞 Commands
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
+2. **Create the Workspace**:
+   ```bash
+   daytona create https://github.com/SwikarGautam/restaurant_astro
+   ```
+3. **Start the Application**:
+    ```bash
+    npm run dev
+    ```
 
-All commands are run from the root of the project, from a terminal:
+## Features
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- **Responsive Design**: Fully responsive layout that works seamlessly across all devices
+- **Modern UI**: Clean and intuitive user interface with smooth animations
+- **Menu Management**: Interactive menu display with filtering options for veg/non-veg items
+- **Key Pages**:
+  - Home page with restaurant highlights and featured dishes
+  - About page featuring the restaurant's story and team
+  - Detailed menu page with filtering capabilities
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Technologies
+
+This project is built using the following technologies:
+- Daytona: Development Environment Manager.
+- Astro: A powerful web framework for building fast and dynamic websites.
+- Tailwind CSS: Utility-first CSS framework for styling.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
