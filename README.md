@@ -1,34 +1,48 @@
-This repository contains a README file sample for Daytona Samples and the MIT License.
+# Astro Starter Kit: Basics
 
-It can be used as a template to create sample repositories that can be added into [Daytona](https://github.com/daytonaio/daytona).
+```sh
+npm create astro@latest -- --template basics
+```
 
-Once you finish your sample and it gets merged, you can open a PR in the Daytona repo and submit the sample into the [index file](https://github.com/daytonaio/daytona/blob/main/hack/samples/index.json).
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
 
-# Sample <LANGUAGE/FRAMEWORK>
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-Sample description
+![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
----
+## 🚀 Project Structure
 
-## 🚀 Getting Started  
+Inside of your Astro project, you'll see the following folders and files:
 
-### Open Using Daytona  
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
-2. **Create the Workspace**:  
-   ```bash  
-   daytona create <SAMPLE_REPO_URL> 
-   ```  
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-... MORE STEPS IF NEEDED ...
+## 🧞 Commands
 
-4. **Start the Application**:  
-   ```bash  
-   command to start the app
-   ```  
+All commands are run from the root of the project, from a terminal:
 
----
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## ✨ Features  
+## 👀 Want to learn more?
 
-List of sample features (e.g. realtime chat app, standardized development environment with devcontainers)
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
